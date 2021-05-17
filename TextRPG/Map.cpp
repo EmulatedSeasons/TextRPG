@@ -29,6 +29,8 @@ void mapScreen()
 	crewmateCount = 5;
 	susMeter = 10;
 	health = 100;
+
+	soundPlay("bgm/TRPGMapScreen.wav", true);
 	
 	while (true)
 	{
@@ -90,6 +92,7 @@ void mapScreen()
 			soundPlay("bgm/TRPGSnareNoise.wav", false);
 			fadeScreen();
 			bool wonFight = fightScreen(health, crewmateCount);
+			soundPlay("bgm/TRPGMapScreen.wav", true);
 			if (!wonFight)
 			{
 				hasWon = false;

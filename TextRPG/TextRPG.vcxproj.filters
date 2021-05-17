@@ -44,6 +44,12 @@
     <Media Include="..\Debug\bgm\TRPGTitleScreen.wav">
       <Filter>Resource Files</Filter>
     </Media>
+    <Media Include="..\bgm\TRPGFightMusic.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\bgm\TRPGMapScreen.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UtilFunctions.h">

@@ -133,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -160,6 +160,8 @@
     <ClInclude Include="UtilFunctions.h" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="..\bgm\TRPGFightMusic.wav" />
+    <Media Include="..\bgm\TRPGMapScreen.wav" />
     <Media Include="..\Debug\bgm\TRPGIntro.wav" />
     <Media Include="..\Debug\bgm\TRPGSnareNoise.wav" />
     <Media Include="..\Debug\bgm\TRPGTitleScreen.wav" />

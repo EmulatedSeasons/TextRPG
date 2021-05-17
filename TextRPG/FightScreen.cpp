@@ -43,6 +43,8 @@ bool fightScreen(int& health, int& crewCount)
 		}
 	}
 
+	soundPlay("bgm/TRPGFightMusic.wav", true);
+
 	while (true)
 	{
 		setConsoleCursorPos(0, 0);
