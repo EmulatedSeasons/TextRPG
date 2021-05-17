@@ -4,5 +4,6 @@
 void mapScreen();
 int roomSelector();
 int doTask(int);
+bool emergencyMeeting();
 
 #endif
