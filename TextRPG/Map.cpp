@@ -12,6 +12,7 @@
 #include "FightScreen.h"
 
 //Could be private class member variables. Not sure if I can use classes for this assignment
+//Could also use a struct
 int room = 5;
 bool hasWon = false;
 int turnCounter = 0;
